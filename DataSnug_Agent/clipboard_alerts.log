@@ -1,0 +1,29 @@
+2026-04-11 11:52:17 [INFO] ==================================================
+2026-04-11 11:52:17 [INFO]   DataSnug Clipboard Monitor — ACTIVE
+2026-04-11 11:52:17 [INFO]   Polling every 0.8s | Block on HIGH: True
+2026-04-11 11:52:17 [INFO] ==================================================
+2026-04-11 11:53:00 [WARNING] [CLIPBOARD][LOW] Score:3 | SSN | Preview: SSN: 123-45-6789...
+2026-04-11 11:53:42 [WARNING] [CLIPBOARD][LOW] Score:3 | Credit Card | Preview: 4111111111111111...
+2026-04-11 11:55:35 [WARNING] [CLIPBOARD][LOW] Score:2 | Email | Preview: rishavhaldar@gmail.com...
+2026-04-11 12:00:41 [WARNING] [CLIPBOARD][MEDIUM] Score:6 | SSN, Credit Card | Preview: SSN: 123-45-6789
+Credit Card: 411111111...
+2026-04-11 12:02:50 [WARNING] [CLIPBOARD][MEDIUM] Score:6 | SSN, Credit Card | Preview: SSN: 123-45-6789
+Credit Card: 4111111111...
+2026-04-11 12:20:47 [WARNING] [CLIPBOARD][LOW] Score:3 | SSN | Preview: SSN: 123-45-6789...
+2026-04-11 12:26:46 [WARNING] [CLIPBOARD][MEDIUM] Score:5 | Password, Email | Preview: name: shakshi Agrawal
+mail: shakshiagra...
+2026-04-11 12:37:14 [WARNING] [CLIPBOARD][LOW] Score:3 | SSN | Preview: SSN: 123-45-6789...
+2026-04-11 12:38:40 [WARNING] [CLIPBOARD][LOW] Score:3 | SSN | Preview: SSN: 123-45-6789...
+2026-04-11 12:41:53 [INFO] =======================================================
+2026-04-11 12:41:53 [INFO]   DataSnug Clipboard Monitor â€” ACTIVE
+2026-04-11 12:41:53 [INFO]   Polling every 0.3s
+2026-04-11 12:41:53 [INFO]   Block HIGH risk  : True
+2026-04-11 12:41:53 [INFO]   Block MEDIUM risk: False
+2026-04-11 12:41:53 [INFO]   Block message    : [BLOCKED by DataSnug] Sensitive data was prevented from being shared.
+2026-04-11 12:41:53 [INFO] =======================================================
+2026-04-11 12:42:27 [WARNING] [CLIPBOARD][LOW][DETECTED] Score:3 | SSN
+2026-04-11 12:43:27 [WARNING] [CLIPBOARD][LOW][DETECTED] Score:3 | SSN
+2026-04-11 12:43:36 [WARNING] [CLIPBOARD][LOW][DETECTED] Score:3 | SSN
+2026-04-11 12:43:54 [WARNING] [CLIPBOARD][LOW][DETECTED] Score:3 | SSN
+2026-04-11 12:44:07 [WARNING] [CLIPBOARD][LOW][DETECTED] Score:3 | SSN
+2026-04-11 12:44:16 [WARNING] [CLIPBOARD][LOW][DETECTED] Score:3 | SSN

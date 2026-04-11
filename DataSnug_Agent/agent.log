@@ -1,0 +1,3 @@
+2026-04-11 11:47:56 [INFO] DataSnug Agent starting — all layers initializing...
+2026-04-11 11:47:56 [WARNING] Clipboard layer: detector not found, using fallback
+2026-04-11 11:47:56 [INFO] File watcher active on ['C:\\Users\\Victus\\Documents', 'C:\\Users\\Victus\\Desktop', 'C:\\Users\\Victus\\Downloads']
