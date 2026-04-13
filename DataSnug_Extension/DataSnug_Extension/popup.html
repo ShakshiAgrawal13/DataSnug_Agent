@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 360px; background: #0f0f1a; color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif; padding: 16px;
+    }
+    h1 { color: #7dd3fc; font-size: 1rem; margin-bottom: 4px; }
+    .sub { color: #475569; font-size: 0.75rem; margin-bottom: 14px; }
+    .cards { display: flex; gap: 8px; margin-bottom: 14px; }
+    .card { flex: 1; background: #1e1e2e; border-radius: 8px; padding: 10px; text-align: center; }
+    .card .val { font-size: 1.4rem; font-weight: bold; }
+    .card .lbl { font-size: 0.65rem; color: #64748b; text-transform: uppercase; }
+    .high { color: #f87171; } .medium { color: #fbbf24; }
+    .low { color: #34d399; } .total { color: #7dd3fc; }
+    .list { max-height: 220px; overflow-y: auto; }
+    .item { background: #1e1e2e; border-radius: 6px; padding: 8px 10px; margin-bottom: 6px; font-size: 0.78rem; }
+    .item .row1 { display: flex; justify-content: space-between; margin-bottom: 3px; }
+    .item .time { color: #475569; }
+    .badge { display: inline-block; padding: 1px 7px; border-radius: 99px; font-size: 0.7rem; font-weight: bold; }
+    .badge.HIGH { background: #450a0a; color: #f87171; }
+    .badge.MEDIUM { background: #451a03; color: #fbbf24; }
+    .item .detail { color: #94a3b8; }
+    .empty { text-align: center; color: #475569; padding: 20px; font-size: 0.8rem; }
+    .url { color: #475569; font-size: 0.7rem; }
+  </style>
+</head>
+<body>
+  <h1>🛡️ DataSnug DLP</h1>
+  <div class="sub">File upload protection — active on all sites</div>
+
+  <div class="cards">
+    <div class="card"><div class="val total" id="total">0</div><div class="lbl">Total</div></div>
+    <div class="card"><div class="val high" id="high">0</div><div class="lbl">Blocked</div></div>
+    <div class="card"><div class="val medium" id="medium">0</div><div class="lbl">Medium</div></div>
+  </div>
+
+  <div class="list" id="list">
+    <div class="empty">No alerts yet. DataSnug is watching...</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
