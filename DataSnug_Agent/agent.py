@@ -98,7 +98,7 @@ def run_clipboard_layer():
                         if re.search(rx, current):
                             findings.append({"type": label, "risk": risk})
                             score += 3 if risk == "HIGH" else 2
-                    level = "SAFE" if score == 0 else ("HIGH" if score > 6 else "MEDIUM")
+                    level = "SAFE" if score == 0 else ("HIGH" if score >= 3 else ("MEDIUM" if score >= 2 else "LOW"))
                     result = {"risk_level": level, "findings": findings, "risk_score": score}
 
                 if result["risk_level"] != "SAFE":
