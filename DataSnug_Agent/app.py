@@ -43,7 +43,7 @@ def scan_text(text):
         if re.search(rx, text):
             findings.append({"type": label, "risk": risk})
             score += 3 if risk == "HIGH" else 2
-    level = "SAFE" if score == 0 else ("HIGH" if score > 6 else ("MEDIUM" if score > 2 else "LOW"))
+    level = "SAFE" if score == 0 else ("HIGH" if score >= 3 else ("MEDIUM" if score >= 2 else "LOW"))
     return {"risk_level": level, "findings": findings, "risk_score": score}
 
 def push_alert(source, risk, detail):
